@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #second {
+            margin: auto;
+            padding: 20px;
+            width: 300px;
+            height: 500px;
+            box-shadow: -5px -5px 100px rgb(134, 41, 41);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-style: italic;
+            text-align: justify;
+        }
+
+        #submit:active {
+            background-color: blueviolet;
+        }
+
+        input:focus {
+            background-color: rgb(24, 24, 24);
+            color: white;
+            width: 150px;
+            height: 24px;
+        }
+
+        #submit:hover {
+            background-color: rgb(24, 24, 24);
+            color: white;
+            transform: scale(1.2);
+            border-radius: 6px;
+            border-width: 0px;
+        }
+
+        p:nth-child(2) {
+            color: navy;
+        }
+
+        p:nth-child(3){
+            color: rgb(128, 0, 0);
+        }
+
+        p:last-child {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>this is Pages page</h1>
+
+    <div>
+        <div id="second">
+            <h1>Hello World</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur 
+                adipisicing elit. Earum eum sed rerum numquam
+                , odio eveniet dicta culpa similique commodi deserunt possimus fugit 
+                saepe cumque quibusdam repellendus, repellat voluptatum. Officiis, itaque.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur 
+                adipisicing elit. Earum eum sed rerum numquam
+                , odio eveniet dicta culpa similique commodi deserunt possimus fugit 
+                saepe cumque quibusdam repellendus, repellat voluptatum. Officiis, itaque.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur 
+                adipisicing elit. Earum eum sed rerum numquam
+                , odio eveniet dicta culpa similique commodi deserunt possimus fugit 
+                saepe cumque quibusdam repellendus, repellat voluptatum. Officiis, itaque.</p>
+        </div>
+    </div>
+
+    <br>
+    <form action="#">
+        <input type="email" placeholder="Email">
+        <br>
+        <input type="password" placeholder="Password">
+
+        <br>
+        <input type="submit" id="submit" value="Login">
+        <br>
+    </form>
+</body>
+</html>
